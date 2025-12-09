@@ -61,7 +61,7 @@ contract Rig is IEntropyConsumer, ReentrancyGuard, Ownable {
     uint256 public constant MIN_INIT_PRICE = 0.0001 ether;
     uint256 public constant ABS_MAX_INIT_PRICE = type(uint192).max;
 
-    uint256 public constant INITIAL_UPS = 2 ether;
+    uint256 public constant INITIAL_UPS = 4 ether;
     uint256 public constant HALVING_PERIOD = 30 days;
     uint256 public constant TAIL_UPS = 0.01 ether;
 
